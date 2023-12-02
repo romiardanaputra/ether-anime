@@ -1,9 +1,10 @@
 import React from "react";
+import { Navbar } from "./components";
 
 const App = () => {
    return (
       <>
-         <div className="text-blue-700 font-normal text-[4rem] font-inter">Hello Ether Anime</div>
+         <Navbar />
       </>
    );
 };
