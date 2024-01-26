@@ -1,0 +1,32 @@
+
+
+.background-text {
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(components/img/oshinoko.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.text1, .text2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff; /* Warna teks putih */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Menambahkan efek bayangan */
+    display: block; /* Mengubah menjadi block agar tidak menyatu */
+    text-align: center;
+}
+
+.text1 {
+    font-weight: 600; /* Semibold */
+    font-size: 64px;
+    
+}
+
+.text2 {
+    font-weight: 100; /* Misalnya Regular atau sesuai kebutuhan */
+    font-size: 30px;
+}
+
