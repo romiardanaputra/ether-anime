@@ -1,3 +1,5 @@
+
+
 .background-text {
    margin: 0;
    padding: 0;
@@ -9,21 +11,80 @@
    position: relative;
 }
 
-.text1,
-.text2 {
-   font-family: "Oswald", sans-serif;
+.text1, .text2 {
+   font-family: 'Oswald', sans-serif;
    color: #fff; /* Warna teks putih */
-   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Menambahkan efek bayangan */
-   display: block; /* Mengubah menjadi block agar tidak menyatu */
    text-align: center;
+   justify-items: center;
 }
 
 .text1 {
    font-weight: 600; /* Semibold */
    font-size: 64px;
+   
 }
 
 .text2 {
    font-weight: 100; /* Misalnya Regular atau sesuai kebutuhan */
    font-size: 30px;
 }
+
+.logintext{
+   font-family: 'Oswald', sans-serif;
+   font-weight: 600; /* Semibold */
+   font-size: 64px;
+}
+
+.input-form-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; /* Rata kiri */
+ }
+ 
+ .custom-input {
+   width: 763px;
+   height: 89px;
+   margin-bottom: 15px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+ }
+
+ .vertical-line {
+   padding-top: 10px;
+   border-left: 5px solid #465fc0; /* Warna dan ketebalan garis dapat disesuaikan */
+   height: 400px; /* Tinggi garis */
+   margin-top: 20px;
+   border-radius: 5px 5px 5px 5px; /* Menyesuaikan ujung garis */
+
+ }
+
+ .h-screen{
+   margin: 0;
+   padding: 0;
+   height: 60vh;
+ }
+
+ .alternative{
+   font-family: 'Oswald', sans-serif;
+   color: #050505; /* Warna teks putih */
+   text-align: center;
+   justify-items: center;
+  
+ }
+ .alternative h1{
+   font-weight: 200; /* Semibold */
+   font-size: 64px;
+ }
+
+ .alternative button{
+     padding: 10px 20px;
+     margin: 10px 0 0 0;
+     color: #fff; /* Warna teks tombol */
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     border-radius: 5px; /* Memberikan sudut lengkung pada tombol */
+     width: 400px;
+ }
