@@ -6,13 +6,13 @@
    height: 70vh;
    justify-content: center;
    align-items: center;
-   background-image: url(components/img/oshinoko.jpg);
+   background-image: url(../images/oshinoko.jpg);
    background-size: cover;
    position: relative;
 }
 
 .text1, .text2 {
-   font-family: 'Oswald', sans-serif;
+   font-family: 'Intern', sans-serif;
    color: #fff; /* Warna teks putih */
    text-align: center;
    justify-items: center;
@@ -88,3 +88,12 @@
      border-radius: 5px; /* Memberikan sudut lengkung pada tombol */
      width: 400px;
  }
+
+ .px-20{
+  margin-top: 10px;
+ }
+
+ .text-footer{
+  width: 400px;
+ }
+
