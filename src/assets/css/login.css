@@ -1,17 +1,18 @@
 
 
 .background-text {
-   margin: 0;
-   padding: 0;
-   height: 70vh;
-   justify-content: center;
-   align-items: center;
-   background-image: url(../images/oshinoko.jpg);
-   background-size: cover;
-   position: relative;
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.599), rgba(0, 0, 0, 0.429)), url(../images/oshinoko.jpg);
+  background-size: cover;
+  position: relative;
 }
 
 .text1, .text2 {
+   z-index: 10;
    font-family: 'Intern', sans-serif;
    color: #fff; /* Warna teks putih */
    text-align: center;
@@ -53,7 +54,7 @@
 
  .vertical-line {
    padding-top: 10px;
-   border-left: 5px solid #465fc0; /* Warna dan ketebalan garis dapat disesuaikan */
+   border-left: 5px solid rgb(8 145 178); /* Warna dan ketebalan garis dapat disesuaikan */
    height: 400px; /* Tinggi garis */
    margin-top: 20px;
    border-radius: 5px 5px 5px 5px; /* Menyesuaikan ujung garis */
@@ -97,3 +98,7 @@
   width: 400px;
  }
 
+.logo{
+  justify-items: center;
+  align-items: center;
+}

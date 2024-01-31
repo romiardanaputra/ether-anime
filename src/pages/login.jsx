@@ -8,7 +8,7 @@ const login = () => {
             <div className='background-text'>
                 <div className='pt-40'>
                     <h1 className='text1 '>Welcome!</h1><br />
-                    <h2 className='text2 '>We're happy to have you back. Please log in to continue.!</h2>
+                    <h2 className='text2 '>We're happy to have you back. Please log in to continue.</h2>
                 </div>
                 
             </div>
@@ -33,7 +33,7 @@ const login = () => {
                             </svg>
                             <input class="pl-2 outline-none border-none login" type="text" name="" id="" placeholder="Password" />
                         </div>
-                        <button type="submit" class="px-20 text-white bg-cyan-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">LOGIN</button>
+                        <button type="submit" class="px-20 text-white bg-cyan-600 hover:bg-blue-800 focus:ring-4 w-52 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">LOGIN</button>
                         <span class="text-sm ml-2 hover:text-blue-500 cursor-pointer">Forgot Password ?</span>
                     </form>
                 </div>
@@ -44,16 +44,48 @@ const login = () => {
                     class="relative overflow-hidden md:flex w-1/2 from-blue-800 to-purple-700 i justify-around items-center hidden">
                     <div>
                         <h1 class="text-dark font-bold text-4xl font-sans">Don't Have Account?</h1>
-                        <button type="submit" class="block w-full bg-indigo-600 hover:bg-blue-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2">REGISTER NOW</button>
+                        <button type="submit" class="block w-full bg-cyan-600 hover:bg-blue-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2">REGISTER NOW</button>
                     </div>
                 </div>
 
             </div>
             <div className='alternative'>
                 <h1>OR</h1>
-                <button className='bg-blue-600 hover:bg-indigo-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2'>Sign In with Facebook</button><br></br>
-                <button className='bg-red-600 hover:bg-red-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2'>Sign In with Google</button><br></br>
-                <button className='bg-cyan-600 hover:bg-cyan-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2'>Sign In with Twitter</button>
+                    <button className='bg-blue-600 hover:bg-indigo-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2'>
+                        <div className='relative flex items-center space-x-4 justify-center'>
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 24 24" 
+                        width="30" 
+                        height="30" 
+                        fill="rgba(255,255,255,1)">
+                        <path d="M13 9H17.5L17 11H13V20H11V11H7V9H11V7.12777C11 5.34473 11.1857 4.69816 11.5343 4.04631C11.8829 3.39446 12.3945 2.88288 13.0463 2.53427C13.6982 2.18565 14.3447 2 16.1278 2C16.6498 2 17.1072 2.05 17.5 2.15V4H16.1278C14.8041 4 14.401 4.07784 13.9895 4.29789C13.6862 4.46011 13.4601 4.68619 13.2979 4.98951C13.0778 5.40096 13 5.80407 13 7.12777V9Z"></path></svg>  
+                        <span className='relative flexblock w-max font-semibold tracking-wide text-white text-sm transition duration-300 group-hover:text-blue-600 sm:text-base items-center space-x-4 justify-center'>Sign In with Facebook </span> 
+                        </div></button>
+                <br></br>
+                
+                <button className='bg-red-600 hover:bg-red-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2'>
+                <div className='relative flex items-center space-x-4 justify-center'>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" 
+                    width="30" 
+                    height="30" 
+                    fill="rgba(255,255,255,1)">
+                    <path d="M12 11H20.5329C20.5769 11.3847 20.6 11.7792 20.6 12.1837C20.6 14.9184 19.6204 17.2204 17.9224 18.7837C16.4367 20.1551 14.404 20.9592 11.9796 20.9592C8.46933 20.9592 5.43266 18.947 3.9551 16.0123C3.34695 14.8 3 13.4286 3 11.9796C3 10.5306 3.34695 9.1592 3.9551 7.94698C5.43266 5.01226 8.46933 3 11.9796 3C14.4 3 16.4326 3.88983 17.9877 5.33878L16.5255 6.80101C15.3682 5.68153 13.8028 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19C15.5265 19 18.1443 16.3923 18.577 13H12V11Z"></path></svg>
+                    <span className='relative flexblock w-max font-semibold tracking-wide text-white text-sm transition duration-300 group-hover:text-blue-600 sm:text-base items-center space-x-4 justify-center'>Sign In with Google</span>
+                </div>
+                </button>
+                <br></br>
+
+                <button className='bg-cyan-600 hover:bg-cyan-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2'>
+                <div className='relative flex items-center space-x-4 justify-center'>
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                width="30"
+                height="30"
+                fill="rgba(255,255,255,1)">
+                    <path d="M22.2125 5.65605C21.4491 5.99375 20.6395 6.21555 19.8106 6.31411C20.6839 5.79132 21.3374 4.9689 21.6493 4.00005C20.8287 4.48761 19.9305 4.83077 18.9938 5.01461C18.2031 4.17106 17.098 3.69303 15.9418 3.69434C13.6326 3.69434 11.7597 5.56661 11.7597 7.87683C11.7597 8.20458 11.7973 8.52242 11.8676 8.82909C8.39047 8.65404 5.31007 6.99005 3.24678 4.45941C2.87529 5.09767 2.68005 5.82318 2.68104 6.56167C2.68104 8.01259 3.4196 9.29324 4.54149 10.043C3.87737 10.022 3.22788 9.84264 2.64718 9.51973C2.64654 9.5373 2.64654 9.55487 2.64654 9.57148C2.64654 11.5984 4.08819 13.2892 6.00199 13.6731C5.6428 13.7703 5.27232 13.8194 4.90022 13.8191C4.62997 13.8191 4.36771 13.7942 4.11279 13.7453C4.64531 15.4065 6.18886 16.6159 8.0196 16.6491C6.53813 17.8118 4.70869 18.4426 2.82543 18.4399C2.49212 18.4402 2.15909 18.4205 1.82812 18.3811C3.74004 19.6102 5.96552 20.2625 8.23842 20.2601C15.9316 20.2601 20.138 13.8875 20.138 8.36111C20.138 8.1803 20.1336 7.99886 20.1256 7.81997C20.9443 7.22845 21.651 6.49567 22.2125 5.65605Z"></path></svg>
+                    <span className='relative flexblock w-max font-semibold tracking-wide text-white text-sm transition duration-300 group-hover:text-blue-600 sm:text-base items-center space-x-4 justify-center'>Sign In with Twitter</span> 
+                </div></button>
             </div>
             <div>
 
