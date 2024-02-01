@@ -33,7 +33,7 @@ const login = () => {
                             </svg>
                             <input class="pl-2 outline-none border-none login" type="text" name="" id="" placeholder="Password" />
                         </div>
-                        <button type="submit" class="px-20 text-white bg-cyan-600 hover:bg-blue-800 focus:ring-4 w-52 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">LOGIN</button>
+                        <button type="submit" class="px-20 text-white bg-cyan-600 hover:bg-blue-800 focus:ring-4 w-52 focus:ring-blue-300 font-medium rounded-2xl text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">LOGIN</button>
                         <span class="text-sm ml-2 hover:text-blue-500 cursor-pointer">Forgot Password ?</span>
                     </form>
                 </div>
