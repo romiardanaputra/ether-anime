@@ -1,21 +1,20 @@
 import React from 'react'
-import "../assets/css/login.css";
 
-const login = () => {
-    return (
-
-        <div className='md:item-center'>
-            <div className='background-text w-full h-96 sm:w-50 sm:h-screen'>
-                <div className='pb-16 sm:pt-32'>
+const LoginMobile = () => {
+  return (
+    <div>
+       <div>
+            <div className='background-text'>
+                <div className='pt-40'>
                     <h1 className='text1 '>Welcome!</h1><br />
                     <h2 className='text2 '>We're happy to have you back. Please log in to continue.</h2>
                 </div>
                 
             </div>
-            <div className='h-full sm:h-96 md:flex sm:inline'>
+            <div className='h-screen md:flex'>
                 <div class="flex md:w-1/2 justify-center items-center bg-white">
                     <form class="bg-white">
-                        <h1 class="text-gray-800 font-bold text-4xl mb-1 md:text-5xl lg:text-6xl xl:text-7xl pt-10 text-center sm:text-left md:mb-2 lg:mb-3 xl:mb-4">Login</h1>
+                        <h1 class="text-gray-800 font-bold text-4xl mb-1">Login</h1>
                         <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -38,17 +37,19 @@ const login = () => {
                     </form>
                 </div>
                 <br />
-                <div class="vertical-line invisible sm:visible pt-2.5 h-0 mt-5 rounded-s-md rounded-e-md sm:h-96"></div>
+                <div class="vertical-line"></div>
 
-                <div class=" sm:flex w-80  from-blue-800 to-purple-700 justify-center pl-28 sm:pl-0 items-center sm:items-center sm:w-1/2 sm:justify-around">
+                <div
+                    class="relative overflow-hidden md:flex w-1/2 from-blue-800 to-purple-700 i justify-around items-center hidden">
                     <div>
-                        <h1 class="text-dark font-bold text-l sm:text-4xl font-sans text-center">Doesn't Have Account?</h1>
-                        <button type="submit" class=" w-full text-blue-600 lowercase sm:bg-cyan-600 sm:hover:bg-blue-800 sm:text-white rounded-2xl sm:font-bold sm:block mb-2 sm:mt-4 sm:py-2">REGISTER NOW</button>
+                        <h1 class="text-dark font-bold text-4xl font-sans">Don't Have Account?</h1>
+                        <button type="submit" class="block w-full bg-cyan-600 hover:bg-blue-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2">REGISTER NOW</button>
                     </div>
                 </div>
+
             </div>
             <div className='alternative'>
-                <h1 className='font-thin text-xl sm:font-light sm:text-6xl py-5'>OR</h1>
+                <h1>OR</h1>
                     <button className='bg-blue-600 hover:bg-indigo-800 text-white mt-4 py-2 rounded-2xl font-bold mb-2'>
                         <div className='relative flex items-center space-x-4 justify-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" 
@@ -176,9 +177,8 @@ const login = () => {
 
 
         </div>
-       
-    )
-
+    </div>
+  )
 }
 
-export default login
+export default LoginMobile
